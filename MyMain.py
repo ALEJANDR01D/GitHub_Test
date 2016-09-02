@@ -33,9 +33,9 @@ class TestTeamcityMessages(unittest.TestCase):
 
 if __name__ == '__main__':
     if is_running_under_teamcity():
-		print ("TeamCityTestRunner")
-        runner = TeamcityTestRunner()
+	    print ("TeamCityTestRunner")
+	    runner = TeamcityTestRunner()
     else:
-		print ("unittest.TextTestRunner")
-        runner = unittest.TextTestRunner()
+	    print ("unittest.TextTestRunner")
+	    runner = unittest.TextTestRunner()
     unittest.main(testRunner=runner)
