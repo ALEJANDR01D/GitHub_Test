@@ -10,7 +10,7 @@ class TestTeamcityMessages(unittest.TestCase):
         assert 1 == 1
 
 	def testAssertEqualTrue(self):
-        self.assertEqual("1", "1")
+	    self.assertEqual("1", "1")
 		
     def testAssertEqualFalse(self):
         self.assertEqual("1", "2")
